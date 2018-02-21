@@ -211,6 +211,31 @@
             <h4 class="text-uppercase mb-4">Residenza</h4>
             <p class="lead mb-0">Morano Calabro
               <br>Via Tufarello 10</p>
+            <style>
+                #map {
+                width: 100%;
+                height: 100px;
+                background-color: grey;
+                }
+            </style>
+            <h3>Location</h3>
+            <div id="map"></div>
+            <script>
+                function initMap() {
+                    var uluru = {lat: 39.8413800, lng: 16.1383700};
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 10,
+                        center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map
+                    });
+                }
+            </script>
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_NQWepMRpBzDKx2HEVXVdb98L4_gVFvA&callback=initMap">
+          </script>
           </div>
           <div class="col-md-4 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Social</h4>
