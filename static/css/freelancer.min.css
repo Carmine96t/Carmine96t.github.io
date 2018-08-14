@@ -255,37 +255,28 @@ a:active,a:focus,a:hover{color:#128f76}
 }
 
 @media (min-width: 568px) {
-  .container {
+  .container .container-fluid{
     width: 550px;
   }
-  .bg-primary{
-  	width: 550px;
-  }
-  .container-fluid {
-    width: 550px;
+  .bg-primary .bg-secondary{
+  	width: 568px;
   }
 }
 
 @media (min-width: 992px) {
-  .container {
+  .container .container-fluid{
     width: 970px;
   }
-  .bg-primary{
-  	width: 970px;
-  }
-  .container-fluid {
-    width: 970px;
+  .bg-primary .bg-secondary{
+  	width: 992px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container {
+  .container .container-fluid{
     width: 1170px;
   }
-  .bg-primary{
-  	width: 1170px;
+  .bg-primary .bg-secondary{
+  	width: 1200px;
   }
-  .container-fluid {
-    width: 1170px;
-  } 
 }
