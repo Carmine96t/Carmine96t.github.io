@@ -254,29 +254,7 @@ a:active,a:focus,a:hover{color:#128f76}
 	border-color:#1a252f
 }
 
-@media (min-width: 568px) {
-  .container .container-fluid{
-    width: 550px;
-  }
-  .bg-primary .bg-secondary{
-  	width: 100%;
-  }
-}
-
-@media (min-width: 992px) {
-  .container .container-fluid{
-    width: 970px;
-  }
-  .bg-primary .bg-secondary{
-  	width: 100%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container .container-fluid{
-    width: 1170px;
-  }
-  .bg-primary .bg-secondary{
-  	width: 100%;
-  }
+img {
+    width: 100%;
+    height: auto;
 }
