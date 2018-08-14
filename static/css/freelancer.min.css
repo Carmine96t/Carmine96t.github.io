@@ -259,7 +259,7 @@ a:active,a:focus,a:hover{color:#128f76}
     width: 550px;
   }
   .bg-primary .bg-secondary{
-  	width: 568px;
+  	width: 100%;
   }
 }
 
@@ -268,7 +268,7 @@ a:active,a:focus,a:hover{color:#128f76}
     width: 970px;
   }
   .bg-primary .bg-secondary{
-  	width: 992px;
+  	width: 100%;
   }
 }
 
@@ -277,6 +277,6 @@ a:active,a:focus,a:hover{color:#128f76}
     width: 1170px;
   }
   .bg-primary .bg-secondary{
-  	width: 1200px;
+  	width: 100%;
   }
 }
