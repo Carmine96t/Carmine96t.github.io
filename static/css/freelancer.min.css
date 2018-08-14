@@ -258,30 +258,34 @@ a:active,a:focus,a:hover{color:#128f76}
   .container {
     width: 550px;
   }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
+  .bg-primary{
+  	width: 550px;
   }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
-
-@media (min-width: 568px) {
   .container-fluid {
     width: 550px;
   }
 }
+
 @media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  .bg-primary{
+  	width: 970px;
+  }
   .container-fluid {
     width: 970px;
   }
 }
+
 @media (min-width: 1200px) {
-  .container-fluid {
+  .container {
     width: 1170px;
   }
+  .bg-primary{
+  	width: 1170px;
+  }
+  .container-fluid {
+    width: 1170px;
+  } 
 }
